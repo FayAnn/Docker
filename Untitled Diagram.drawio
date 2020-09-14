@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T07:06:00.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.6.10" etag="U4V_VbZwCg67FxqhIdUA" type="github"><diagram id="RFlkqJD-RrUU7PwFx3HF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-14T08:45:21.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="BuhtLVhG4AG8wXKzX3iT" version="13.6.10" type="github">
+  <diagram id="RFlkqJD-RrUU7PwFx3HF" name="Page-1">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DqhcD2ku0Vz2T2vf0w6Q-1" value="Windows OS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DqhcD2ku0Vz2T2vf0w6Q-2" value="Docker Engine:&lt;br&gt;&amp;nbsp; builds and containerize applications&lt;br&gt;client server model&lt;br&gt;dockerd- a long running daemon process&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="321" width="450" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
