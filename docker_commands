@@ -1,0 +1,16 @@
+docker container ls - List running containers
+  -a - List all containers
+  
+docker run <image> - Create and run a container based on the provided image
+  -i, --interactive - Keep STDIN open
+  -t, --tty - Locate a psuedo-tty; without this, there's no command prompt
+  -d, --detach - Run the container in the background
+  
+docker restart <value> - Set restarting parameters
+    no - Never restart
+    always - Always restart when stopped
+    unless-stopped - Restart unless manually stopped
+    on-failure<:retries> - Restart when the container fails; we can supply the maximum amount of retries
+    
+docker --rm - Remove the container upon exit
+docker --name <name> - Provide a nickname for the container
