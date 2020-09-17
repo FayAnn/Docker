@@ -1,0 +1,16 @@
+mkdir javaproject
+cd javaproject/
+git clone https://github.com/FayAnn/maven-web-application.git
+cd maven-web-application/
+mvn package
+sudo docker build -t faydel/test .
+vi Dockerfile //if above fails verify tomcat has correct java jre or jdk depending on tomcat version
+sudo docker build -t faydel/test .
+sudo docker images // list the image just created
+sudo docker build -t faydel/test:2 .  //add version 2
+sudo docker images
+sudo docker login -u faydel //log into docker hub enter password when prompted
+sudo docker push faydel/test:2
+sudo docker run -d -p 8080:8080 --name mavenappcontainer faydel/test:2  //containerize the image
+sudo docker ps // print running images
+curl ifconfig.co //paste http://35.175.172.134:8080/maven-web-application/ in browser and tomcat will show.  
