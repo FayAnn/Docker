@@ -13,4 +13,4 @@ sudo docker login -u faydel //log into docker hub enter password when prompted
 sudo docker push faydel/test:2
 sudo docker run -d -p 8080:8080 --name mavenappcontainer faydel/test:2  //containerize the image
 sudo docker ps // print running images
-curl ifconfig.co //paste http://35.175.172.134:8080/maven-web-application/ in browser and tomcat will show.  
+curl ifconfig.co //paste http://35.175.172.134:8080/maven-web-application in browser and tomcat will show. pulls content from the  mavenwebapp war file in dockerfile
